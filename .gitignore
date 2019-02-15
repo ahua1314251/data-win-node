@@ -1,39 +1,20 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Build and Release Folders
+bin-debug/
+bin-release/
+node_modules/
+[Oo]bj/
+[Bb]in/
 
-# dependencies
-**/node_modules
-# roadhog-api-doc ignore
-/src/utils/request-temp.js
-_roadhog-api-doc
+# Other files and folders
+.settings/
 
-# production
-/dist
-/.vscode
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
 
-# misc
-.DS_Store
-npm-debug.log*
-yarn-error.log
 
-/coverage
-.idea
-yarn.lock
-package-lock.json
-*bak
-.vscode
-
-# visual studio code
-.history
-*.log
-
-functions/mock
-.temp/**
-
-# umi
-.umi
-.umi-production
-
-# screenshot
-screenshot
-.firebase
-
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
